@@ -1,0 +1,28 @@
+{
+  "name": "lan-cli",
+  "version": "1.0.0",
+  "description": "CLI for working with the LAN and PLAN stacks",
+  "bin": {
+    "lc": "./bin/lan-cli.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadialSpark/LAN-CLI.git"
+  },
+  "author": "twilkins@radialspark.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RadialSpark/LAN-CLI/issues"
+  },
+  "homepage": "https://github.com/RadialSpark/LAN-CLI#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "commander": "^2.17.1",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "tar": "^4.4.6",
+    "wget-improved": "^3.0.1",
+    "zlib": "^1.0.5"
+  }
+}
